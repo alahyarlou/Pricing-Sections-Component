@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "watch":"npx tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch"
+    "watch":"npx tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch",
+    "dev":"npx tailwindcss -o ./assets/css/style.css --minify"
   },
   "devDependencies": {
     "tailwindcss": "^3.0.24"
